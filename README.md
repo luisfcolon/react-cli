@@ -12,7 +12,7 @@ __Work in progress__
 reacli make:class ComponentName
 ```
 
-Output:
+Output `ComponentName.js`
 
 ```javascript
 import React from 'react';
@@ -39,7 +39,7 @@ With props:
 reacli make:class ComponentName -p
 ```
 
-Output:
+Output `ComponentName.js`
 
 ```javascript
 import React from 'react';
@@ -72,7 +72,7 @@ export default ComponentName;
 reacli make:functional ComponentName
 ```
 
-Output:
+Output `ComponentName.js`
 
 ```javascript
 import React from 'react';
@@ -91,7 +91,7 @@ With props:
 reacli make:functional ComponentName -p
 ```
 
-Output:
+Output `ComponentName.js`
 
 ```javascript
 import React from 'react';
