@@ -1,19 +1,13 @@
-#!/usr/bin/env node --harmony
+#!/usr/bin/env node
 'use strict';
-
-var _mustache = require('mustache');
-
-var _mustache2 = _interopRequireDefault(_mustache);
-
-var _path = require('path');
-
-var _path2 = _interopRequireDefault(_path);
 
 var _commander = require('commander');
 
 var _commander2 = _interopRequireDefault(_commander);
 
 var _files = require('./utils/files');
+
+var _files2 = _interopRequireDefault(_files);
 
 var _templates = require('./templates');
 
@@ -32,7 +26,7 @@ _commander2.default.command('make:class <ComponentName>').description('Create cl
   var withProps = _commander2.default.withProps;
   var filename = componentName + '.js';
   var content = t.reactClass(componentName, withProps);
-  (0, _files.writeComponentFile)(filename, content, path);
+  (0, _files2.default)(filename, content, path);
 });
 
 _commander2.default.command('make:functional <ComponentName>').description('Create stateless functional component').action(function (componentName) {
@@ -40,7 +34,7 @@ _commander2.default.command('make:functional <ComponentName>').description('Crea
   var withProps = _commander2.default.withProps;
   var filename = componentName + '.js';
   var content = t.statelessFunctional(componentName, withProps);
-  (0, _files.writeComponentFile)(filename, content, path);
+  (0, _files2.default)(filename, content, path);
 });
 
 _commander2.default.parse(process.argv);

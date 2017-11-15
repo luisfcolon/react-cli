@@ -3,7 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.writeComponentFile = undefined;
 
 var _fs = require('fs');
 
@@ -21,4 +20,4 @@ function writeComponentFile(filename, content, path) {
   });
 }
 
-exports.writeComponentFile = writeComponentFile;
+exports.default = writeComponentFile;

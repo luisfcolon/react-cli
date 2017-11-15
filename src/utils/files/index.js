@@ -10,4 +10,4 @@ function writeComponentFile(filename, content, path) {
   });
 }
 
-export { writeComponentFile };
+export default writeComponentFile;

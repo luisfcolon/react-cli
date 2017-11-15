@@ -1,10 +1,8 @@
-#!/usr/bin/env node --harmony
+#!/usr/bin/env node
 
-import mustache from 'mustache';
-import path from 'path';
 import program from 'commander'
 
-import { writeComponentFile } from './utils/files';
+import writeComponentFile from './utils/files';
 import * as t from './templates';
 
 import { version } from '../package.json'
