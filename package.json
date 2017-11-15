@@ -1,5 +1,5 @@
 {
-  "name": "reactly",
+  "name": "reacli",
   "version": "1.0.0",
   "description": "Create react components. Stateless functional or class extended.",
   "main": "dist",
@@ -19,5 +19,5 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": "./dist/index.js",
-  "repository": "git@github.com:luisfcolon/reactly.git"
+  "repository": "git@github.com:luisfcolon/reacli.git"
 }
