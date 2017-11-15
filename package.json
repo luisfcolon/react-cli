@@ -1,5 +1,5 @@
 {
-  "name": "reacli",
+  "name": "react-cli",
   "version": "1.0.0",
   "description": "Create react components. Stateless functional or class extended.",
   "main": "dist",
