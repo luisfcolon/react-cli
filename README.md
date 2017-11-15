@@ -12,10 +12,60 @@ __Work in progress__
 // barebone
 
 reacli make:class ComponentName
+```
 
+```javascript
+// example output
+
+import React from 'react';
+
+
+class ComponentName extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div className="component" />
+    );
+  }
+}
+
+export default ComponentName;
+```
+
+```
 // with props
 
 reacli make:class ComponentName -p
+```
+
+```javascript
+// example output
+
+import React from 'react';
+
+import PropTypes from 'prop-types';
+
+
+class ComponentName extends React.Component {
+  static defaultProps = {};
+
+  static propTypes = {};
+
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div className="component" />
+    );
+  }
+}
+
+export default ComponentName;
 ```
 
 ### Stateless functional component
