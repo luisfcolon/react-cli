@@ -1,4 +1,4 @@
-# reacli
+# react-cli
 
 CLI tool to create react components. Stateless functional or class extended.
 
@@ -9,7 +9,7 @@ __Work in progress__
 ### React class component
 
 ```bash
-reacli make:class ComponentName
+react-cli make:class ComponentName
 ```
 
 Output `ComponentName.js`
@@ -36,7 +36,7 @@ export default ComponentName;
 With props:
 
 ```bash
-reacli make:class ComponentName -p
+react-cli make:class ComponentName -p
 ```
 
 Output `ComponentName.js`
@@ -69,7 +69,7 @@ export default ComponentName;
 ### Stateless functional component
 
 ```bash
-reacli make:functional ComponentName
+react-cli make:functional ComponentName
 ```
 
 Output `ComponentName.js`
@@ -88,7 +88,7 @@ export default ComponentName;
 With props:
 
 ```bash
-reacli make:functional ComponentName -p
+react-cli make:functional ComponentName -p
 ```
 
 Output `ComponentName.js`
