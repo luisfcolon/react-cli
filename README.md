@@ -35,7 +35,7 @@ class ComponentName extends React.Component {
 export default ComponentName;
 ```
 
-```
+```bash
 // with props
 
 reacli make:class ComponentName -p
@@ -74,8 +74,42 @@ export default ComponentName;
 // barebone
 
 reacli make:functional ComponentName
+```
 
+```javascript
+// example output
+
+import React from 'react';
+
+
+const ComponentName = () => (
+  <div className="component" />
+);
+
+export default ComponentName;
+```
+
+```bash
 // with props
 
 reacli make:functional ComponentName -p
+```
+
+```
+// example output
+
+import React from 'react';
+
+import PropTypes from 'prop-types';
+
+
+const ComponentName = props => (
+  <div className="component" />
+);
+
+ComponentName.defaultProps = {};
+
+ComponentName.propTypes = {};
+
+export default ComponentName;
 ```
