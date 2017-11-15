@@ -9,14 +9,10 @@ __Work in progress__
 ### React class component
 
 ```bash
-// barebone
-
 reacli make:class ComponentName
 ```
 
 ```javascript
-// example output
-
 import React from 'react';
 
 
@@ -35,15 +31,15 @@ class ComponentName extends React.Component {
 export default ComponentName;
 ```
 
-```bash
-// with props
+With props:
 
+```bash
 reacli make:class ComponentName -p
 ```
 
-```javascript
-// example output
+Output:
 
+```javascript
 import React from 'react';
 
 import PropTypes from 'prop-types';
@@ -71,14 +67,12 @@ export default ComponentName;
 ### Stateless functional component
 
 ```bash
-// barebone
-
 reacli make:functional ComponentName
 ```
 
-```javascript
-// example output
+Output:
 
+```javascript
 import React from 'react';
 
 
@@ -89,15 +83,15 @@ const ComponentName = () => (
 export default ComponentName;
 ```
 
-```bash
-// with props
+With props:
 
+```bash
 reacli make:functional ComponentName -p
 ```
 
-```
-// example output
+Output:
 
+```javascript
 import React from 'react';
 
 import PropTypes from 'prop-types';
