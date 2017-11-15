@@ -12,6 +12,8 @@ __Work in progress__
 reacli make:class ComponentName
 ```
 
+Output:
+
 ```javascript
 import React from 'react';
 
