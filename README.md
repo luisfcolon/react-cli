@@ -1,5 +1,7 @@
 # react-cli
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 CLI tool to create react components. Stateless functional or class extended.
 
 __Work in progress__
