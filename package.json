@@ -4,7 +4,7 @@
   "description": "Create react components. Stateless functional or class extended.",
   "main": "dist",
   "dependencies": {
-    "commander": "^2.11.0"
+    "commander": "^8.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
